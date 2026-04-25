@@ -5,8 +5,8 @@ help:
 
 .PHONY: maker strinspect
 
-maker:
+maker: maker.c
 	gcc -g -O0 -o maker ./maker.c && ./maker
 
-strinspect:
+strinspect: strinspect.c
 	gcc -g -O0 -o strinspect ./strinspect.c  && ./strinspect Hello
