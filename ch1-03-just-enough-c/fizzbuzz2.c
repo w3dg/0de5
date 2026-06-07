@@ -3,6 +3,12 @@
 
 #define BUFLEN 1000
 
+/**
+ * Author: Debopam Gupta https://github.com/w3dg
+ * Inspired by 0DE5 by Kay Lack
+ * https://www.0de5.net/stimuli/binary-formats-through-bitmap-images
+ */
+
 void build_string(char *, int, int);
 
 int main(int argc, char **argv)

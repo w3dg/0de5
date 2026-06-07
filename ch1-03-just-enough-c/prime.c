@@ -2,6 +2,12 @@
 #include <stdlib.h>
 #include <sys/param.h>
 
+/**
+ * Author: Debopam Gupta https://github.com/w3dg
+ * Inspired by 0DE5 by Kay Lack
+ * https://www.0de5.net/stimuli/binary-formats-through-bitmap-images
+ */
+
 int main(int argc, const char **argv)
 {
   if (argc != 2)
